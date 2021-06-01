@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+
+<ImageView
+
+    android:id="@+id/coffee_imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp"
+    android:scaleType="centerCrop"
+    android:layout_below="@id/coffeshop_textView"
+    android:src="@drawable/coffee" />
+
+
+
+<TextView
+    android:id="@+id/coffeshop_textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Coffee Shop"
+    android:textSize="36sp"
+    android:fontFamily="sans-serif-smallcaps"
+    android:textColor="#282828"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+
+        android:layout_below="@id/coffee_imageView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timings -: 7 am - 7 pm "
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#282828"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact No-9909469410"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#282828"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS-: Karelibaug New Vip Road   "
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#282828"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email-id= CoffeShop@gmail.com"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#282828"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
